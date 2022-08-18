@@ -542,3 +542,127 @@ body {
 .bottom-footer .footer-navbar div:last-child ul li img {
     width: 36px;
 }
+
+
+
+
+/* --------media query----------- */
+@media screen and (max-width:640px) {
+
+    .navbar {
+        margin: 20px;
+        flex-direction: column;
+
+    }
+
+    .navbar .list {
+        display: none;
+    }
+
+    .hero {
+        flex-direction: column;
+
+
+    }
+
+    .hero .hero-left {
+        text-align: center;
+    }
+
+    .hero .hero-left h1 {
+        font-size: 2rem;
+
+    }
+
+    .hero .hero-left p {
+
+        line-height: 20px;
+
+    }
+
+    .hero .hero-right img {
+        margin-top: 4rem;
+        width: 380px;
+
+
+    }
+
+    .testing .testing-left img {
+        margin-top: 9rem;
+        width: 380px;
+
+    }
+
+    .testing {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .technical-section {
+        text-align: center;
+        margin-top: 12rem;
+
+        flex-direction: column;
+
+    }
+
+    .technical-section .technical-section-right img {
+        width: 380px;
+
+    }
+
+    .services-section .services-headline {
+        flex-direction: column;
+        text-align: center;
+
+    }
+
+    .pricing {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .customer-section {
+        margin-top: 170rem;
+    }
+
+    .customer-section p {
+        font-size: 11px;
+    }
+
+    .customer-card {
+        height: 37 0px;
+    }
+
+    .customer-card p {
+        font-size: 15px;
+
+    }
+
+    .footer-container .footer {
+        flex-direction: column;
+        text-align: center;
+
+    }
+
+    .footer-container .footer .footer-left h1 {
+        margin-top: 4rem;
+        font-size: 2rem;
+
+    }
+
+    .footer-right button {
+        margin-bottom: 1rem;
+    }
+
+    .bottom-footer {
+        flex-direction: column;
+        text-align: center;
+
+    }
+
+    .bottom-footer .footer-navbar {
+        flex-direction: column;
+        margin-top: .8rem;
+    }
+}
