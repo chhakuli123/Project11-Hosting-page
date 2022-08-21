@@ -1,6 +1,6 @@
 # Project 11 | Hosting-page ![Project 11](https://img.shields.io/badge/Project%20-11-green) ![bootcamp](https://img.shields.io/badge/JS-Bootcamp-yellow)
 
-### By Chhakuli
+### By Chhakuli z
 
 
 ## 🔗Live Link -: [Hosting-page](https://project11-hosting-page.netlify.app/)
